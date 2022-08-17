@@ -1,0 +1,6 @@
+{
+  "development": {
+    "auth_conn": "mongodb://localhost:27017/mahasedra_auth",
+    "kafka_host": "localhost:9092"
+  }
+}

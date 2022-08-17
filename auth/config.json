@@ -1,0 +1,8 @@
+{
+  "development": {
+    "database_conn": "mongodb://localhost:27017/mahasedra_auth"
+  },
+  "test": {
+    "database_conn": "mongodb://localhost:27017/mahasedra_auth_test"
+  }
+}
