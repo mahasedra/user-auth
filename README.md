@@ -4,11 +4,16 @@
 User microservice
 
 ## Dependencies
-* 1. OS
+1. OS 
 2. openjdk 11 (java 11)
 3. node v14 or more
+4. mongodb v4 or more
 
-## Apache Kafka 
+### Instructions
+Use many terminal windows to run entire app
+Only for running: you need to respect the number of the following app
+
+## 1. Apache Kafka 
 * Installation
 ```
 wget http://apache.crihan.fr/dist/kafka/0.10.2.1/kafka_2.10-0.10.2.1.tgz
@@ -20,7 +25,7 @@ cd kafka_2.10-0.10.2.1/
 ./bin/zookeeper-server-start.sh ./config/zookeeper.properties
 ./bin/kafka-server-start.sh ./config/server.properties
 ```
-## Auth service
+## 2. Auth service
 * Installation
 ```
 cd auth/
@@ -30,7 +35,7 @@ npm install
 ```
 npm start
 ```
-## User service
+## 3. User service
 * Installation
 ```
 cd user/
@@ -41,7 +46,7 @@ npm install
 npm start
 ```
 
-## Kafka-backend
+## 4. Kafka-backend
 * Installation
 ```
 cd kafka-backend/
