@@ -3,7 +3,7 @@ const emailValidator = require('email-validator');
 const { User } = require('../model');
 const { getPasswordHash, validatePassword, validatePassHash } = require('../util/passwords');
 
-const JWT_SECRET = 'myubereatessuperdupersecret';
+const JWT_SECRET = 'mahasedra_secret';
 
 const getToken = async (req, res) => {
   const { email, password } = req.body;
@@ -48,7 +48,7 @@ const signUp = async (req, res) => {
   if (
     !emailValidator.validate(email)
     || !validatePassword(password)
-    || !(role === 'customer' || role === 'restaurant')
+    || !(role === 'admin' || role === 'moderator' || 'client')
   ) {
     res.status(400).json({
       error: 'invalid email or password',

@@ -1,5 +1,5 @@
 const express = require('express');
-const { getToken, signUp, validateToken } = require('../controller/auth');
+const { getToken, signUp, validateToken } = require('../controllers/auth');
 
 const router = express.Router();
 
@@ -13,7 +13,7 @@ const router = express.Router();
  * @typedef SignUpReq
  * @property {string} email.required
  * @property {string} password.required
- * @property {string} role.required - must be customer/restaurant
+ * @property {string} role.required - must be admin/moderator/client
  */
 
 /**

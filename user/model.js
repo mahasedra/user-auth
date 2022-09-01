@@ -14,7 +14,7 @@ const UserSchema = new Schema({
   password: String,
   role: {
     type: String,
-    enum: ['customer', 'restaurant', 'admin', 'moderator', 'client'],
+    enum: ['admin', 'moderator', 'client'],
   },
   isComplete: {
     type: Boolean,
