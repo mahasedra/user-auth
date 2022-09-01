@@ -35,18 +35,8 @@ npm install
 ```
 npm start
 ```
-## 3. User service
-* Installation
-```
-cd user/
-npm install
-```
-* Run
-```
-npm start
-```
 
-## 4. Kafka-backend
+## 3. Kafka-backend
 * Installation
 ```
 cd kafka-backend/
@@ -62,4 +52,3 @@ npm start
 * There is sample config file (config.json) in each service folders which you should edit with proper values. (To run in develop mode no need to edit any file)
 * Following are the API Docs URL for each service (it's a generated swagger)
   - Auth: `localhost:7000/api-docs`
-  - User: `localhost:7004/api-docs`
