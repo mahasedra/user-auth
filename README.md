@@ -16,9 +16,9 @@ Only for running: you need to respect the number of the following app
 ## 1. Apache Kafka 
 * Installation
 ```
-wget http://apache.crihan.fr/dist/kafka/0.10.2.1/kafka_2.10-0.10.2.1.tgz
-tar xzf kafka_2.10-0.10.2.1.tgz
-cd kafka_2.10-0.10.2.1/
+wget https://archive.apache.org/dist/kafka/2.8.0/kafka_2.12-2.8.0.tgz
+tar xzf kafka_2.12-2.8.0.tgz
+cd kafka_2.12-2.8.0/
 ```
 * Run
 ```
