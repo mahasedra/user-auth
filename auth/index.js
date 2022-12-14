@@ -1,4 +1,5 @@
 /* eslint-disable global-require */
+require("dotenv").config();
 const http = require('http');
 require('./config');
 const { initDB } = require('./db');

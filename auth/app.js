@@ -6,6 +6,9 @@ const logger = require('morgan');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
+const passport = require("passport");
+const passportStrategy = require("./passport/passport");
+
 const app = express();
 
 //routes
@@ -60,6 +63,9 @@ const options = {
 
 expressSwagger(options);
 // app.use(getAccessMiddleware(acl));
+
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use('/auth', authRoutes);
 app.use('/user', getAuthMiddleware(validate), userRouter);
