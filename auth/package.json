@@ -22,7 +22,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "mocha": "^9.1.2",
-    "mongoose": "^6.0.11",
+    "mongoose": "^6.13.10",
     "morgan": "^1.10.0",
     "mysql2": "^2.3.0",
     "password-validator": "^5.1.1",
