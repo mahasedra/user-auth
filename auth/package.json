@@ -24,7 +24,7 @@
     "mocha": "^9.1.2",
     "mongoose": "^6.13.10",
     "morgan": "^1.10.0",
-    "mysql2": "^2.3.0",
+    "mysql2": "^3.9.8",
     "password-validator": "^5.1.1",
     "bcrypt-nodejs": "0.0.3",
     "formidable": "^1.1.1",
